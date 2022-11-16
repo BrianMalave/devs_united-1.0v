@@ -1,0 +1,58 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9vh;
+  background-color: #2F112D;
+  width: var(--body__width);
+}
+
+.username_photo {
+  width: 40px;
+  object-fit: cover;
+  border-radius: 25px;
+  border: 3px solid;
+  cursor: pointer;
+}
+
+.username {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.username img {
+  cursor: pointer;
+}
+
+.username span {
+  margin-left: 10px;
+}
+
+.min_logo {
+  width: 60px;
+}
+
+.min_logo_name {
+  width: 190px;
+}
+
+.button_logout {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 116px;
+  height: 35px;
+  background-color: #F50D5A;
+  cursor: pointer;
+}
+
+.button_goback {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 116px;
+  height: 35px;
+  background-color: #F50D5A;
+  cursor: pointer;
+}

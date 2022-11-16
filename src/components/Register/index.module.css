@@ -1,0 +1,24 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.username {
+  color: whitesmoke;
+  width: var(--header__width);
+  height: 45px;
+  padding: 10px;
+  text-align: center;
+  font: normal 600 18px "Silkscreen";
+}
+
+.button_register {
+  width: var(--header__width);
+  height: 52px;
+  background-color: #00DA76;
+  color: white;
+  cursor: pointer;
+  font: normal 700 20px Silkscreen;
+}

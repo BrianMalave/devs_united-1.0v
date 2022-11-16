@@ -1,0 +1,68 @@
+.tweeter {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: var(--body__width);
+  padding-bottom: 15px;
+}
+
+.tweet {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.username_photo {
+  border: solid 3px;
+  object-fit: cover;
+  width: 70px;
+  border-radius: 45px;
+  margin-right: 20px;
+}
+
+textarea {
+  width: 450px;
+  background-color: #2F112D;
+  color: #914D8B;
+  padding: 10px;
+  resize: none;
+}
+
+.letter_counter {
+  color: white;
+}
+
+.letter_max {
+  color: #F50D5A;
+}
+
+.letters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 480px;
+}
+
+.box_button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.box_button button {
+  height: 35px;
+  width: 102px;
+  font-family: silkscreen;
+  font: normal 700 20px Silkscreen;
+}
+
+.box_button button:disabled {
+  cursor: auto;
+}
+
+.box_button button:enabled {
+  background-color: #00DA76;
+  cursor: pointer;
+}
