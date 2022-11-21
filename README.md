@@ -1,6 +1,6 @@
 # Getting Started with Devs_United chatApp
 
-This project was bootstrapped with [Create React App]. Also is made for bootcamps purposes. In this repo, you will find a gif's search engine app. From Acamica-Bootcamp(CoderHouse) front-end development courses.
+This project was bootstrapped with [Create React App]. Also is made for bootcamps purposes. In this repo, you will find a gif's search engine app. From Acamica-Bootcamp(DigitalHouse) front-end development courses.
 
 Node -v 19.1.0(Stable)
 
