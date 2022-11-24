@@ -7,7 +7,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "./react-tabs.css";
 
 const Profile = () => {
-  const { setUser, filter, setFilter, setIsLoading } = useContext(AppContext);
+  const {  user, setUser, filter, setFilter, setIsLoading } = useContext(AppContext);
   const [ tabIndex, setTabIndex ] = useState();
 
   const FilterBy = (index) => {
@@ -18,7 +18,7 @@ const Profile = () => {
 
   return (
   <div className={styles.profile}>
-    <img className={styles.username_photo} style={{ borderColor: setUser.color }} alt="User" src={setUser.photoURL}></img>
+    <img className={styles.username_photo} style={{ borderColor: setUser.color }} alt="User" src={user.photoURL}></img>
     <span className={styles.username} style={{ backgroundColor: setUser.color }}>{setUser.username}</span>
 
     <Tabs selectedIndex={tabIndex} onSelect={index => {setTabIndex(index); FilterBy(index)}}>
